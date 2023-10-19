@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>스프링부트4장</title>
+    <style>
+        body {
+            background-image: url('/back.jpeg');
+            background-size: cover;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            document.getElementById('link1').addEventListener('click', function() {
+                window.location.href = 'standard1.html';
+            });
+            document.getElementById('link2').addEventListener('click', function() {
+                window.location.href = 'standard2.html';
+            });
+            document.getElementById('link3').addEventListener('click', function() {
+                window.location.href = 'standard3.html';
+            });
+            document.getElementById('link4').addEventListener('click', function() {
+                window.location.href = 'standard4.html';
+            });
+        });
+    </script>
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <li><a href="/">메인</a></li>
+            <li><a href="standard1" id="link1">1장예제</a></li>
+            <li><a href="standard2" id="link2">2장예제</a></li>
+            <li><a href="standard3" id="link3">3장예제</a></li>
+            <li><a href="standard4" id="link4">4장예제</a></li>
+        </ul>
+    </nav>
+</header>
+<h1>자바의정석 - 4장 문제풀이</h1>
+<!-- 리절트 값을 출력 -->
+<p>4장 예제의 답은 <span th:text="${quiz4}"></span>입니다.</p>
+<!-- 나머지 웹사이트 내용 -->
+</body>
+</html>
