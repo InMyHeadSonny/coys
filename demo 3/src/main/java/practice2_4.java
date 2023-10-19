@@ -12,6 +12,9 @@ public class practice2_4 {
                                                 호출되게된다. 문자가아닌 문자열을 출력하려면 char 가 아닌 String 데이터타입을 사용해야한다. */
         /* char new_Answer = "no";   따라서 char(문자) 데이터방식에서 "no"와 같이 String 데이터방식을 사용하면 에러가 출력된다.
         System.out.println(new_Answer); */
+        float f = 3.14f; /* f를 추가함 */
+        System.out.println(f); /* float는 실수형에서 기본값으로 하고있지않아서 끝에 f혹은 F를 기입해줘야한다. 기본값은 double이다. */
+
 
 
 
