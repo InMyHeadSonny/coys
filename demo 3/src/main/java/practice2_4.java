@@ -15,7 +15,8 @@ public class practice2_4 {
         float f = 3.14f; /* f를 추가함 */
         System.out.println(f); /* float는 실수형에서 기본값으로 하고있지않아서 끝에 f혹은 F를 기입해줘야한다. 기본값은 double이다. */
 
-
+        double d = 1.4e3f; /* 1.4e3float 로 작성했으나 정상적으로 출력이된다. */
+        System.out.println(d); /* double 변수는 d혹은 D 그리고 아무것도 작성하지않은 상태에서 출력이되나 double범위안에 float가 포함되므로 묵시적으로 타입을 변환한다 */
 
 
     }
