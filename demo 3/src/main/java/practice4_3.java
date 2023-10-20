@@ -12,7 +12,7 @@ public class practice4_3 { /* 1+(1+2) ... 1+(1+2+3..+10)*/
             i++; // i를 증가
         }
 
-        System.out.println();
+        System.out.println(result);
         System.out.println("최종 결과: " + result); // 결과 출력
     }
 }
