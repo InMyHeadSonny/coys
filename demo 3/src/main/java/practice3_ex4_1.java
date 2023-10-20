@@ -1,4 +1,4 @@
-import java.util.Random;
+import java.util.Random; /* 전위형증감연산자를사용한 베이가스택쌓기 시뮬레이터 */
 public class practice3_ex4_1 {
     public static void main(String[] args) {
         int stack = 0;
