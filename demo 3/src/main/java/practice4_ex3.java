@@ -1,4 +1,4 @@
-import java.util.Scanner /* Scanner 클래스를 사용하기위해 import */
+import java.util.Scanner; /* Scanner 클래스를 사용하기위해 import */
 public class practice4_ex3 {
     public static void main(String[] args) {
         System.out.println("숫자를 하나 입력하세요");
