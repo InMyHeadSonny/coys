@@ -25,25 +25,28 @@ public class week2 {
             System.out.println("1~10000중 A에 들어갈 숫자를 입력하시오");
             A = input_A.nextInt();
 
-            if (A > 1 || A > 10000) {
+            if (A < 1 || A > 10000) {
                 System.out.println("입력값이 범위를 벗어납니다. 다시 입력하세요");
                 continue;
             }
 
-            System.out.println("1~10000중 A에 들어갈 숫자를 입력하시오");
+            System.out.println("1~10000중 B에 들어갈 숫자를 입력하시오");
             B = input_B.nextInt();
 
-            if (B > 1 || B > 10000) {
+            if (B < 1 || B > 10000) {
                 System.out.println("입력값이 범위를 벗어납니다. 다시 입력하세요");
                 continue;
             }
 
             if (A < B) {
                 System.out.println("<");
+                break;
             } else if (A > B) {
                 System.out.println(">");
+                break;
             } else {
                 System.out.println("==");
+                break;
             }
         } while (A != B);
 
