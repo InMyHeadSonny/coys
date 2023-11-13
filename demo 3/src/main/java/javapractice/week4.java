@@ -22,9 +22,9 @@ public class week4 {
         }
 
 
-        for (int i=1; i <= 10000; i++) {
-            int result = sum += i;
-            System.out.println("입력받은 값 :"  );
+        for (int i=1; i <= sum; i++) {
+            sum += i;
+            System.out.println("입력받은 값 : " + sum + "덧셈의 총합 : " + i );
         }
 
 
