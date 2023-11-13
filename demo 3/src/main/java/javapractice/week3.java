@@ -13,7 +13,7 @@ public class week3 {
 
             if (N < 1 || N > 9) {
                 System.out.println("1부터 9 사이의 정수를 입력하세요.");
-                continue; // 범위를 벗어나면 다시 입력 요청
+                continue;  // 범위를 벗어나면 다시 입력 요청
             } else {
                 break; // 올바른 입력이 들어왔을 때 루프를 빠져나감
             }
