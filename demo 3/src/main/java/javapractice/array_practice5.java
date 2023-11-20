@@ -12,6 +12,12 @@ public class array_practice5 {
             char[] question = words[i].toCharArray(); // String을 char로 변환
 
             // 알맞은 코드를 넣어 완성하시오 char배열 question에 담긴 문자의 위치를 임의로 바꾼다
+            int j = (int) (Math.random() * words.length);
+            String tmp = words[i];
+            words[i] = words[j];
+            words[j] = tmp;
+
+            System.out.println(words[i]);
 
 
 
