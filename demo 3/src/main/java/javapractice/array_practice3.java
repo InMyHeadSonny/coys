@@ -14,8 +14,10 @@ public class array_practice3 {
 
         // 알맞은 코드를 넣어 완성하시오
 
-
-
+        for (int i =0; i<arr.length;i++) {
+            total += arr[i];
+        }
+        average = total / (float)arr.length ;
 
 
 
