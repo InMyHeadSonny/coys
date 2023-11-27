@@ -9,16 +9,8 @@ class Car2 {
         this("white", "auto", 4);
     }
 
-<<<<<<< HEAD
-    Car2(String color,String gearType) {
-
-        this(color, "auto", 4);
-        this.color = color;
-        this.gearType = gearType;
-=======
     Car2(String color) {
         this(color, "auto", 4);
->>>>>>> origin/work_back
     }
     Car2(String color, String gearType, int door) {
         this.color = color;
@@ -28,16 +20,13 @@ class Car2 {
 
 }
 public class oop_practice_12 {
-<<<<<<< HEAD
     public static void main(String[] args) {
         Car2 c1 = new Car2();
-        Car2 c2 = new Car2("a","Bdasdssaads");
+        Car2 c2 = new Car2("a");
 
         System.out.println("c1의 color=" + c1.color + ", gearType=" + c1.gearType + ", door=" + c1.door);
-        System.out.println("c2의 color=" + c2.color + ", gearType=" + c2.gearType + ", door=" + c2.door);
+        System.out.println("c1의 color=" + c2.color + ", gearType=" + c2.gearType + ", door=" + c2.door);
 
 
     }
-=======
->>>>>>> origin/work_back
 }
