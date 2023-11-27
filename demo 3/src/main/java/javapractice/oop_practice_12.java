@@ -9,11 +9,16 @@ class Car2 {
         this("white", "auto", 4);
     }
 
+<<<<<<< HEAD
     Car2(String color,String gearType) {
 
         this(color, "auto", 4);
         this.color = color;
         this.gearType = gearType;
+=======
+    Car2(String color) {
+        this(color, "auto", 4);
+>>>>>>> origin/work_back
     }
     Car2(String color, String gearType, int door) {
         this.color = color;
@@ -23,6 +28,7 @@ class Car2 {
 
 }
 public class oop_practice_12 {
+<<<<<<< HEAD
     public static void main(String[] args) {
         Car2 c1 = new Car2();
         Car2 c2 = new Car2("a","Bdasdssaads");
@@ -32,4 +38,6 @@ public class oop_practice_12 {
 
 
     }
+=======
+>>>>>>> origin/work_back
 }
