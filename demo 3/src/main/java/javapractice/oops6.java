@@ -24,9 +24,10 @@ class Computer extends Product {
     public String toString() {return "Computer";}
 }
 class buyer { //고객, 물건을 사는사람
-    int money = 300; //소유금액
+    int money = 300000000; //소유금액
     int bonusPoint = 0;     // 보너스 포인트
-
+    Product[] cart = new Product[10]; //구입한 제품을 저장하기위한 배열(카트)
+    int i = 0;
     void buy(Product p) {
         if (money < p.price) {
             System.out.println("잔액이 부족합니다");
@@ -35,6 +36,7 @@ class buyer { //고객, 물건을 사는사람
 
         money -= p.price;       //가진돈에 구입한제품의 가격을뺀다
         bonusPoint += p.bonusPoint; //제품의 보너스포인트를 추가한다.
+        cart[i++] = p;
         System.out.println(p + "을/를 구입했습니다");
     }
 }
