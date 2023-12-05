@@ -19,12 +19,12 @@ class Tvone extends Product {
 }
 
 class Computer extends Product {
-    Computer() { super(200); }
+    Computer() { super(2000000); }
 
     public String toString() {return "Computer";}
 }
 class buyer { //고객, 물건을 사는사람
-    int money = 30000000; //소유금액
+    int money = 300; //소유금액
     int bonusPoint = 0;     // 보너스 포인트
 
     void buy(Product p) {
