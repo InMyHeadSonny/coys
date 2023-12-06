@@ -4,7 +4,7 @@ import jdk.jfr.Event;
 
 import java.awt.*;
 import java.awt.event.*;
-import java.beans.EventHandler;
+
 
 class Ex7_18 {
     public static void main(String[] args) {
