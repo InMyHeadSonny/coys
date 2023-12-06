@@ -1,6 +1,6 @@
 class Outer{
     class Inner {
-        int iv = 100;
+        int iv = 200;
     }
 }
 
